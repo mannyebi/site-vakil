@@ -1,6 +1,67 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
+    <style>
+
+        @font-face {
+            font-family: "IRANSansWeb_FaNum";
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum).eot' %}"); /* IE9 Compat Modes */
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum).eot?#iefix' %}") format("embedded-opentype"), /* IE6-IE8 */
+            url("{% static 'Fonts/IRANSansWeb(FaNum).ttf' %}") format("truetype"), /* Safari, Android, iOS */
+            url("{% static 'Fonts/IRANSansWeb(FaNum).woff' %}") format("woff"), /* Modern Browsers */
+            url("{% static 'Fonts/IRANSansWeb(FaNum).woff2' %}") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "IRANSansWeb_FaNum_Light";
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Light.eot' %}"); /* IE9 Compat Modes */
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Light.eot?#iefix' %}") format("embedded-opentype"), /* IE6-IE8 */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Light.ttf' %}") format("truetype"), /* Safari, Android, iOS */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Light.woff' %}") format("woff"), /* Modern Browsers */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Light.woff2' %}") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "IRANSansWeb_FaNum_Medium";
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Medium.eot' %}"); /* IE9 Compat Modes */
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix' %}") format("embedded-opentype"), /* IE6-IE8 */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Medium.ttf' %}") format("truetype"), /* Safari, Android, iOS */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Medium.woff' %}") format("woff"), /* Modern Browsers */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Medium.woff2' %}") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "IRANSansWeb_FaNum_Bold";
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Bold.eot' %}"); /* IE9 Compat Modes */
+            src: url("{% static 'Fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix' %}") format("embedded-opentype"), /* IE6-IE8 */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Bold.ttf' %}") format("truetype"), /* Safari, Android, iOS */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Bold.woff' %}") format("woff"), /* Modern Browsers */
+            url("{% static 'Fonts/IRANSansWeb(FaNum)_Bold.woff2' %}") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "CocoBiker";
+            src: url("{% static 'Fonts/CocoBiker.eot' %}"); /* IE9 Compat Modes */
+            src: url("{% static 'Fonts/CocoBiker.eot?#iefix' %}") format("embedded-opentype"), /* IE6-IE8 */
+            url("{% static 'Fonts/CocoBiker.otf' %}") format("opentype"), /* Open Type Font */
+            url("{% static 'Fonts/CocoBiker.svg' %}") format("svg"), /* Legacy iOS */
+            url("{% static 'Fonts/CocoBiker.ttf' %}") format("truetype"), /* Safari, Android, iOS */
+            url("{% static 'Fonts/CocoBiker.woff' %}") format("woff"), /* Modern Browsers */
+            url("{% static 'Fonts/CocoBiker.woff2' %}") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+    </style>
 <head>
     <title>{% block title %}{% endblock title %}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
